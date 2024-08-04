@@ -1,0 +1,186 @@
+/* Font */
+.ibm-plex-sans-thai-looped-thin {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-looped-extralight {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-looped-light {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-looped-regular {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-looped-medium {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-looped-semibold {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ibm-plex-sans-thai-looped-bold {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* Set */
+select, input {
+    font-size: small !important;
+    font-weight: 300 !important;
+}
+
+ิbutton, label {
+    font-size: small !important;
+    font-weight: 500 !important;
+}
+
+html,*,body,div,span,a,li,ul,p,label,button {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: small !important; */
+}
+h1,h2,h3,h4,h5,h6,strong {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+}
+
+.font-bold,th {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+}
+.font-lg {
+    font-size: large;
+}
+.font-xx {
+    font-size: xx-small;
+}
+
+.font-x {
+    font-size: x-small;
+}
+
+.font-s {
+    font-size: small;
+}
+
+/* Chart Pie */
+.progress-circle {
+    width: 230px;
+    height: 230px;
+    background: conic-gradient(rgba(0, 227, 150, 0.85) var(--value), #e9ecef 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+}
+.progress-circle::before {
+    content: "";
+    width: 170px;
+    height: 170px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+}
+.progress-circle span {
+    position: absolute;
+    text-align: center;
+}
+.progress-circle span.text {
+    font-size: 14px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.progress-circle span.percent {
+    font-size: 24px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Filter dropdown */
+.pagetitle .filter {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.pagetitle .filter .icon {
+    color: #aab7cf;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.pagetitle .filter .icon:hover,
+.pagetitle .filter .icon:focus {
+    color: #4154f1;
+}
+
+.pagetitle .filter .dropdown-header {
+    padding: 8px 15px;
+}
+
+.pagetitle .filter .dropdown-header h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #aab7cf;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.pagetitle .filter .dropdown-item {
+    padding: 8px 15px;
+}
+
+/* Data Table */
+button.datatable-sorter {
+    padding: 0px !important;
+}
+
+.search-box, .search-left {
+    align-items: center;
+    display: flex;
+}
+
+.search-box {
+    background: #fff;
+    border: .13333vw solid var(--i-colour_primary_outline);
+    border-radius: 5.33333vw;
+    flex-direction: row;
+    height: 8.8vw;
+    justify-content: space-between;
+    padding-left: var(--i-padding_inside_module_horizontally_thin);
+    padding-right: var(--i-padding_inside_element_horizontally_thin);
+}
